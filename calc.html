@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="style.css">
+
+    <head>
+        <title>CANCCLEARCALCULATOR</title>
+    </head>
+    <body id='body'>
+        <div id='calc-contain'>
+  
+          <form name="calculator">
+            
+            <input type="text" name="answer" />
+            <div class="grid-container">
+                <div class="grid-item">
+                    <input type="button" value=" 1 " onclick="calculator.answer.value += '1'" />
+                </div>
+                <div class="grid-item">
+                    <input type="button" value=" 2 " onclick="calculator.answer.value += '2'" />
+                </div>
+                <div class="grid-item">            
+                    <input type="button" value=" 3 " onclick="calculator.answer.value += '3'" />
+                </div>
+                <div class="grid-item">            
+                    <input type="button" value=" + " onclick="calculator.answer.value += '+'" />
+                </div>
+                
+                <div class="grid-item">            
+                    <input type="button" value=" 4 " onclick="calculator.answer.value += '4'" />
+                </div>
+                <div class="grid-item">            
+                    <input type="button" value=" 5 " onclick="calculator.answer.value += '5'" />
+                </div>
+                <div class="grid-item">            
+                    <input type="button" value=" 6 " onclick="calculator.answer.value += '6'" />
+                </div>
+                <div class="grid-item">            
+                    <input type="button" value=" - " onclick="calculator.answer.value += '-'" />
+                </div>
+                
+                <div class="grid-item">            
+                    <input type="button" value=" 7 " onclick="calculator.answer.value += '7'" />
+                </div>
+                <div class="grid-item">            
+                    <input type="button" value=" 8 " onclick="calculator.answer.value += '8'" />
+                </div>
+                <div class="grid-item">            
+                    <input type="button" value=" 9 " onclick="calculator.answer.value += '9'" />
+                </div>
+                <div class="grid-item">            
+                    <input type="button" value=" x " onclick="calculator.answer.value += '*'" />
+                </div>
+
+                <div class="grid-item">            
+                    <input type="button" value=" c " onclick="calculator.answer.value = ''" />
+                </div>
+                <div class="grid-item">            
+                    <input type="button" value=" 0 " onclick="calculator.answer.value += '0'" />
+                </div>
+                <div class="grid-item">            
+                    <input type="button" value=" / " onclick="calculator.answer.value += '/'" />
+                </div>
+                <div class="grid-item">            
+                    <input type="button" value=" = " onclick="calculator.answer.value = eval(calculator.answer.value)" />
+                </div>
+                
+
+              </div>
+    
+          </form>
+          <div id="agh">
+            <p>CCCC (CanCClearCalculator)
+          </div>
+        </div>
+    </body>
+</html>
